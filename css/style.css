@@ -159,3 +159,34 @@ h3 {
 .buton a {
     font-weight: bold;
 }
+
+.log {
+    font-size: 50px;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.lin a {
+    color: #666;
+}
+
+.labed {
+    color: #666;
+}
+.ft-links a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 15px;
+    color: #666;
+}
+
+.menu a{
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
