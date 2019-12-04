@@ -59,6 +59,7 @@ h2 {
     font: bold 16px/16px "Roboto Condensed",sans-serif;
     text-transform: uppercase;
     padding-bottom: 11px;
+    margin-top: 0;
 }
 
 .img-tag {
