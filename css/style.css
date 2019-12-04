@@ -1,13 +1,57 @@
-.page-header {
-    background: red;
+.header-top {
     width: 100%;
-    height: 50px;
-}
-
-.logo-img{
-    width: 120px;
+  }
+  
+  .header-bottom {
+    display: none;
+  }
+  
+  .nav-date-login {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  
+  .nav-date {
+    display: none;
+  }
+  
+  .nav-sub-singin {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .nav-sub-singin i {
+    font-size: 28px;
+    color: rgb(251, 154, 148);
+  }
+  
+  .nav-button-subscribe {
+    background-color: white;
+    color: rgb(247, 34, 16);
+    border: none;
+    font-weight: 700;
+  }
+  
+  .nav-logo {
+    position: absolute;
+    width: 132px;
     height: 20px;
-}
+    top: 10px;
+    left: 10px;
+  }
+  
+  .first-image img {
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .nav-logo a img {
+    height: 20px;
+    width: 100%;
+  }
+  
 
 h2 {
     color: rgb(3, 3, 3);
@@ -123,23 +167,20 @@ h5 {
     color: black;
 }
 
-.first {
-    width: 100%;
+.two-images {
+    padding-bottom: 13px;
+  }
+
+.first-img {
+    width: 170px;
+    height: 200px;
 }
 
-.first img {
-    width: 68%;
-    height: auto;
-}
-
-.second {
-    top: 32px;
-    left: 96px;
-}
-
-.second img {
-    width:89%;
-    height: auto;
+.second-img {
+    width: 138px;
+    height: 228px;
+    top: 10px;
+    left: 77px;
 }
 
 h3 {
@@ -190,3 +231,101 @@ h3 {
     line-height: 15px;
     color: #666;
 }
+
+@media only screen and (min-width: 992px) {
+    .header-top {
+      height: 95px;
+      margin-left: 5px;
+    }
+  
+    .nav-date-login {
+      justify-content: space-between;
+      padding-top: 45px;
+    }
+  
+    .nav-logo {
+      left: 35%;
+      padding-top: 15px;
+    }
+  
+    .nav-logo a img {
+      height: 60px;
+      width: 396px;
+    }
+  
+    .nav-sub-singin i {
+      display: none;
+    }
+  
+    .nav-date {
+      display: block;
+      margin-left: 15px;
+      font-size: 16px;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+  
+    .header-bottom::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: "";
+      display: block;
+      background-color: #f72210;
+      border-left: 12px solid white;
+      border-top: 15px solid #f72210;
+      margin-left: 5px;
+      width: 60px;
+    }
+  
+    .header-bottom {
+      display: block;
+      margin-top: 90px;
+    }
+  
+    .search {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: start;
+      margin: 3px 5px 0 0;
+    }
+  
+    .search i {
+      padding-left: 5px;
+      font-size: 25px;
+    }
+  
+    .page-nav {
+      list-style: none;
+      padding-left: 0;
+      border-bottom: 1px solid #f4f5f6;
+    }
+  
+    .page-nav li {
+      flex-grow: 1;
+      padding: 0 5px;
+    }
+  
+    .usa {
+      margin: 5px;
+      text-align: center;
+    }
+  
+    .page-nav li a {
+      font-size: 21px;
+      line-height: 24px;
+      font-weight: bold;
+      color: black;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+  
+    .page-nav li a:hover {
+      color: #f72210;
+      text-decoration-line: none;
+    }
+  
+    .page-list {
+      border-left: 1px solid #d9d9d9;
+      margin: 5px;
+      text-align: center;
+    }
