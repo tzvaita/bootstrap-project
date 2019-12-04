@@ -1,56 +1,56 @@
 .header-top {
     width: 100%;
-  }
+}
   
-  .header-bottom {
-    display: none;
-  }
-  
-  .nav-date-login {
-    width: 100%;
-    justify-content: flex-end;
-  }
-  
-  .nav-date {
-    display: none;
-  }
-  
-  .nav-sub-singin {
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .nav-sub-singin i {
-    font-size: 28px;
-    color: rgb(251, 154, 148);
-  }
-  
-  .nav-button-subscribe {
-    background-color: white;
-    color: rgb(247, 34, 16);
-    border: none;
-    font-weight: 700;
-  }
-  
-  .nav-logo {
-    position: absolute;
-    width: 132px;
-    height: 20px;
-    top: 10px;
-    left: 10px;
-  }
-  
-  .first-image img {
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  .nav-logo a img {
-    height: 20px;
-    width: 100%;
-  }
+.header-bottom {
+display: none;
+}
+
+.nav-date-login {
+width: 100%;
+justify-content: flex-end;
+}
+
+.nav-date {
+display: none;
+}
+
+.nav-sub-singin {
+font-size: 16px;
+font-weight: 700;
+color: #fff;
+font-family: 'Roboto', sans-serif;
+}
+
+.nav-sub-singin i {
+font-size: 28px;
+color: rgb(251, 154, 148);
+}
+
+.nav-button-subscribe {
+background-color: white;
+color: rgb(247, 34, 16);
+border: none;
+font-weight: 700;
+}
+
+.nav-logo {
+position: absolute;
+width: 132px;
+height: 20px;
+top: 10px;
+left: 10px;
+}
+
+.first-image img {
+vertical-align: middle;
+width: 100%;
+}
+
+.nav-logo a img {
+height: 20px;
+width: 100%;
+}
   
 
 h2 {
@@ -114,7 +114,7 @@ h4 {
 .summary {
     color: #333;
     font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
-    color: rgba(39,39,39,.5);
+    color: rgba(39, 39, 39, 0.5);
 }
 
 .summary a {
@@ -220,6 +220,7 @@ h3 {
 .labed {
     color: #666;
 }
+
 .ft-links a {
     text-decoration: none;
     font-size: 15px;
@@ -227,7 +228,7 @@ h3 {
     color: #666;
 }
 
-.menu a{
+.menu a {
     font-size: 14px;
     line-height: 15px;
     color: #666;
